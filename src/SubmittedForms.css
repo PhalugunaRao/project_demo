@@ -1,0 +1,21 @@
+.centered {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-list {
+  max-height: 80vh; /* Set a maximum height for the list */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
